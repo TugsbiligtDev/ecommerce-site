@@ -21,6 +21,8 @@ hr {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 .top-container {
   padding-bottom: 2.65rem;
@@ -57,7 +59,7 @@ hr {
 .icon-container {
   display: flex;
   align-items: center;
-  gap: 26px;
+  gap: 2rem;
 }
 .icon-container img {
   transition: all 200ms ease;

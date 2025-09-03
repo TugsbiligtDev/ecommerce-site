@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-/* Responsive Typography */
 html {
   font-size: 16px;
 }
@@ -15,7 +14,6 @@ html {
   }
 }
 
-/* Ensure images are responsive */
 img {
   max-width: 100%;
   height: auto;
