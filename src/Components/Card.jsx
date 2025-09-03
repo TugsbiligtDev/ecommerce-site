@@ -1,28 +1,28 @@
 import "./Card.css";
 
-const Card = ({ ProductImage, Name, Price, Big, Discount }) => {
-  const discountedPrice = Price - (Price * Discount) / 100;
+const Card = ({ productImage, name, price, big, discount }) => {
+  const discountedPrice = price - (price * discount) / 100;
 
   return (
     <div className="card">
       <div className="img-con">
-        <img src={ProductImage} alt={Name} className="card-img" />
-        {!Big && (
-          <img src="./heart.svg" alt="heart icon" className="corner-icon" />
+        <img src={productImage} alt={name} className="card-img" />
+        {!big && (
+          <img src="/heart.svg" alt="heart icon" className="corner-icon" />
         )}
       </div>
-      <p>{Name}</p>
+      <p>{name}</p>
       <div className="price-con">
-        {Discount > 0 ? (
+        {discount > 0 ? (
           <>
             <span className="discounted-price">
               {Math.round(discountedPrice)}₮
             </span>
-            <span className="original-price">{Price}₮</span>
-            <span className="discount-percent">{Discount}%</span>
+            <span className="original-price">{price}₮</span>
+            <span className="discount-percent">{discount}%</span>
           </>
         ) : (
-          <span className="discounted-price">{Price}₮</span>
+          <span className="discounted-price">{price}₮</span>
         )}
       </div>
     </div>

@@ -64,3 +64,72 @@
   padding: 0.25rem 0;
   gap: 0.25rem;
 }
+
+/* Responsive Design - Mobile Only */
+@media (max-width: 768px) {
+  .card-img {
+    width: 100%;
+    height: auto;
+    max-height: 250px;
+  }
+
+  .card p {
+    font-size: 0.85rem;
+    padding-top: 0.4rem;
+  }
+
+  .discounted-price {
+    font-size: 0.85rem;
+  }
+
+  .original-price {
+    font-size: 0.7rem;
+  }
+
+  .discount-percent {
+    font-size: 0.85rem;
+  }
+
+  .corner-icon {
+    width: 1.25rem;
+    height: 1.25rem;
+    top: 0.75rem;
+    right: 0.75rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .card-img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+  }
+
+  .card p {
+    font-size: 0.8rem;
+    padding-top: 0.3rem;
+  }
+
+  .discounted-price {
+    font-size: 0.8rem;
+  }
+
+  .original-price {
+    font-size: 0.65rem;
+  }
+
+  .discount-percent {
+    font-size: 0.8rem;
+  }
+
+  .corner-icon {
+    width: 1rem;
+    height: 1rem;
+    top: 0.5rem;
+    right: 0.5rem;
+  }
+
+  .price-con {
+    gap: 0.2rem;
+  }
+}

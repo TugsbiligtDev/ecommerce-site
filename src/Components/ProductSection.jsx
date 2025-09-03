@@ -138,11 +138,11 @@ const ProductSection = () => {
         return (
           <div key={product.id} className={product.big ? "big-item" : ""}>
             <Card
-              ProductImage={product.image}
-              Name={product.name}
-              Price={product.price}
-              Big={product.big}
-              Discount={product.discount}
+              productImage={product.image}
+              name={product.name}
+              price={product.price}
+              big={product.big}
+              discount={product.discount}
             />
           </div>
         );

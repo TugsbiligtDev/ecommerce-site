@@ -37,3 +37,48 @@
   line-height: 40px;
   letter-spacing: -0.9px;
 }
+
+/* Responsive Design - Mobile Only */
+@media (max-width: 768px) {
+  .hero {
+    height: 350px;
+  }
+
+  .text-container {
+    padding: 1rem;
+    padding-left: 5%;
+  }
+
+  .upper-text {
+    font-size: 0.9rem;
+    line-height: 1.75rem;
+  }
+
+  .lower-text {
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -0.7px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    height: 300px;
+  }
+
+  .text-container {
+    padding: 0.75rem;
+    padding-left: 3%;
+  }
+
+  .upper-text {
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+  }
+
+  .lower-text {
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.6px;
+  }
+}
