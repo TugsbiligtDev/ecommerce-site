@@ -6,11 +6,12 @@ const Header = () => {
         <div className="menu-container">
           <div className="nav-left">
             <div className="logo-container">
-              <img src="/logo.png" alt="pinecone logo" />
+              <img src="/logo.svg" alt="pinecone logo" />
               <p>ECOMMERCE</p>
             </div>
             <p>Ангилал</p>
           </div>
+
           <div className="search-bar">
             <img src="/search.svg" alt="Search products" />
             <input type="text" placeholder="Бүтээгдэхүүн хайх" />
