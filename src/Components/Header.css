@@ -137,7 +137,7 @@ header {
   transition: 0.3s;
 }
 
-/* Responsive Design - Mobile Only */
+/* Mobile responsive */
 @media (max-width: 768px) {
   .menu-container {
     flex-wrap: wrap;

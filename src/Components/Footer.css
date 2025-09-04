@@ -70,7 +70,7 @@ hr {
   cursor: pointer;
 }
 
-/* Responsive Design - Mobile Only */
+/* Mobile responsive */
 @media (max-width: 768px) {
   .footer-container {
     padding: 2.5rem 0;

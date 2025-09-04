@@ -21,7 +21,7 @@
   object-fit: cover;
 }
 
-/* Responsive Design - Mobile Only */
+/* Mobile responsive */
 @media (max-width: 768px) {
   .product-grid {
     grid-template-columns: repeat(2, 1fr);

@@ -65,7 +65,7 @@
   gap: 0.25rem;
 }
 
-/* Responsive Design - Mobile Only */
+/* Mobile responsive */
 @media (max-width: 768px) {
   .card-img {
     width: 100%;

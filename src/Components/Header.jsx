@@ -6,7 +6,7 @@ const Header = () => {
         <div className="menu-container">
           <div className="nav-left">
             <div className="logo-container">
-              <img src="/logo.svg" alt="pinecone logo" />
+              <img src="/logo.png" alt="pinecone logo" />
               <p>ECOMMERCE</p>
             </div>
             <p>Ангилал</p>
