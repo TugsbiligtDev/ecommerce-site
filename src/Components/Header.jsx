@@ -18,7 +18,7 @@ const Header = () => {
           </div>
           <div className="nav-right">
             <img src="/heart.svg" alt="Wishlist icon" />
-            <img src="/shopping-card.svg" alt="Card icon " />
+            <img src="/shopping-card.svg" alt="Card icon" />
             <div className="btn-container">
               <button className="primary-btn">Бүртгүүлэх</button>
               <button className="secondary-btn">Нэвтрэх</button>

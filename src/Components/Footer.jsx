@@ -3,7 +3,7 @@ const Footer = () => {
   return (
     <div className="footer-container">
       <div className="top-container">
-        <img src="/symbol.svg" alt="pineconeicon" />
+        <img src="/symbol.svg" alt="pinecone icon" />
         <div className="contact">
           <div className="circle-icon">
             <img src="/call.svg" alt="call icon" />
@@ -22,7 +22,7 @@ const Footer = () => {
           <img src="/facebook.svg" alt="facebook icon" />
           <img src="/instagram.svg" alt="instagram icon" />
           <img src="/twitter.svg" alt="twitter icon" />
-          <img src="/linkedIn.svg" alt="linkedInicon" />
+          <img src="/linkedIn.svg" alt="linkedIn icon" />
         </div>
       </div>
     </div>

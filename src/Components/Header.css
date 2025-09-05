@@ -121,22 +121,6 @@ header {
   border-style: none;
 }
 
-/* Mobile hamburger menu */
-.mobile-menu-toggle {
-  display: none;
-  flex-direction: column;
-  cursor: pointer;
-  padding: 0.5rem;
-}
-
-.mobile-menu-toggle span {
-  width: 25px;
-  height: 3px;
-  background-color: white;
-  margin: 3px 0;
-  transition: 0.3s;
-}
-
 /* Mobile responsive */
 @media (max-width: 768px) {
   .menu-container {
@@ -162,7 +146,8 @@ header {
   }
 
   .btn-container button {
-    padding: 0.4rem 0.6rem;
+    padding: 0.3rem 0.6rem;
+    height: auto;
     font-size: 0.8rem;
   }
 
@@ -189,7 +174,8 @@ header {
   }
 
   .btn-container button {
-    padding: 0.35rem 0.5rem;
+    padding: 0.3rem 0.5rem;
+    height: auto;
     font-size: 0.75rem;
   }
 

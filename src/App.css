@@ -27,6 +27,13 @@ textarea {
   min-width: 44px;
 }
 
+@media (max-width: 768px) {
+  button {
+    min-height: auto;
+    min-width: auto;
+  }
+}
+
 @media (max-width: 480px) {
   button,
   input,
